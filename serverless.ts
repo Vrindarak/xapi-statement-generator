@@ -1,6 +1,7 @@
 import type { AWS } from '@serverless/typescript';
 
 import hello from '@functions/hello';
+import activated from '@functions/activated';
 
 const serverlessConfiguration: AWS = {
   service: 'xapi-statement-generator',
@@ -25,7 +26,7 @@ const serverlessConfiguration: AWS = {
     lambdaHashingVersion: '20201221',
   },
   // import the function via paths
-  functions: { hello },
+  functions: { hello, activated },
 };
 
 module.exports = serverlessConfiguration;

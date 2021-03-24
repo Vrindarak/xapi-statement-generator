@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "Content-Type": "text/plain"
+  },
+  "body": { 
+    "applicationId": "1",
+    "applicationName": "Big Data",
+    "userEmail": "vrindarak.v@simplilearn.net",
+    "userId": "ui001",
+    "signature": "xxxx",
+    "userName": "Vrindarak Vishwakarma",
+    "eventTime": "xxx",
+    "ip": "xxx.xx.xxx.xx",
+    "refralUrl": "xxx",
+    "url": "xxxx",
+    "userAgent": "http-user-agent",
+    "dataVal": "DataValue",
+    "from_server": "true",
+    "ttl": "startotime",
+    "discription": "Brief About Application Course",
+    "verb": "launched"
+    
+}
+}
